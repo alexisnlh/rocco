@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rocco - El perro más feliz del mundo!</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Sacramento" rel="stylesheet">
+        <link rel="stylesheet" href="css/rocco.css">
+    </head>
+    <body>
+        <section id="portada" class="portada1 background"> <!-- portada -->
+            <header id="header" class="header contenedor1" > <!-- header -->
+                <h1 class="logo1">Rocco</h1>
+
+                <nav class="menu"> <!-- menú -->
+                    <ul>
+                        <li>
+                            <a href="#informacion">Información</a>
+                        </li>
+                        <li>
+                            <a href="imagenes.html">Imágenes</a>
+                        </li>
+                        <li>
+                            <a href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="contenedor1">
+                <h1 class="titulo">Rocco <span>Enri</span>queto</h1> <!-- título -->
+                <h3 class="title-a">El perro más feliz del mundo!</h3> <!-- resumen -->
+                <a class="button1" href="#informacion">Conócelo más</a> <!-- botón -->
+            </div>
+        </section>
+
+        <section id="informacion" class="datos contenedor2"> <!-- información -->
+            <h2>Información de Rocco Enriqueto</h2> <!-- título -->
+
+            <article class="datos-personales"> <!-- datos personales -->
+                <img class="left" src="images/Rocco1.png" width="250" alt="Rocco bello">
+                <div class="datos-a">
+                    <h3 class="title-b">Datos Personales</h3>
+                    <ol>
+                        <li><strong class="negrita">Nombre: </strong> Rocco 'Kilotes' Enriqueto</li>
+                        <li><strong class="negrita">Identificación: </strong> 20.229.930</li>
+                        <li><strong class="negrita">Fecha de nacimiento: </strong> 05/04/15</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article class="datos-personales habilidades"> <!-- habilidades -->
+                <div class="datos-b">
+                    <h3 class="title-b">Lo que sé hacer...</h3>
+                    <ol>
+                        <li>Dormir mucho con mi mamá!</li>
+                        <li>Poner presión para lambucear!</li>
+                        <li>Hacer feliz a todo el mundo!</li>
+                    </ol>
+                </div>
+                <img class="right" src="images/Rocco2.png" width="384" height="328" alt="Guitarra Invie classic">
+            </article>
+        </section>
+
+        <footer id="contacto" class="footer">
+            <div class="contenedor3">
+                <div class="contacto">
+                    <h1 class="logo2">Rocco</h1>
+                    <a href="tel:+584241898399"><strong>Teléfono</strong><span>Se lo comió!</span></a>
+                    <a href="mailto:dani_linares_04@hotmail.com"><strong>E-mail</strong><span>kilotespesado@hotmail.com</span></a>
+                </div>
+                <form class="formulario">
+                    <div class="col1">
+                        <label for="name">Nombre:</label>
+                        <input type="text" required id="name" name="name">
+                        <label for="email">E-mail:</label>
+                        <input type="email" required id="email" name="email">
+                        <div class="sexo">
+                            <label for="girl">
+                                <input type="radio" id="girl" name="sex" value="girl" checked>Mujer
+                            </label>
+                            <label for="man">
+                                <input type="radio" id="man" name="sex" value="man">Hombre
+                            </label>
+                        </div>
+                        <div class="interest">
+                            <label for="quotation">
+                                <input type="checkbox" id="quotation" name="interest" value="quotation" checked>Regalos
+                            </label>
+                            <label for="claims">
+                                <input type="checkbox" id="claims" name="interest" value="claims">Reclamos
+                            </label>
+                            <label for="comments">
+                                <input type="checkbox" id="comments" name="interest" value="comments">Comentarios
+                            </label>
+                            <label class="others" for="others">
+                                <input type="checkbox" id="others" name="interest" value="others">Otros
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <label for="subject">Comentarios:</label>
+                        <textarea name="comentarios" id="subject" cols="30" rows="7"></textarea>
+                        <input type="submit" value="Enviar" class="button2">
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
