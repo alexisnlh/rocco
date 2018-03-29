@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rocco - Imágenes del perro más feliz del mundo!</title>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Sacramento" rel="stylesheet">
+        <link rel="stylesheet" href="css/rocco.css">
+    </head>
+    <body>
+        <header id="header" class="header background portada2" > <!-- header -->
+            <div class="contenedor1">
+                <h1 class="logo1">Rocco</h1>
+
+                <nav class="menu"> <!-- menú -->
+                    <ul>
+                        <li>
+                            <a href="index.html#informacion">Información</a>
+                        </li>
+                        <li>
+                            <a href="imagenes.html">Imágenes</a>
+                        </li>
+                        <li>
+                            <a href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="table">
+            <div class="contenedor4">
+                <table>
+                    <thead>
+                    <tr>
+                        <th><img src="images/IMG_1545.JPG" width="300" alt="Te observo"></th>
+                        <th><img src="images/IMG_3302.JPG" width="300" alt="Comiendo mi hueso"></th>
+                        <th><img src="images/IMG_9662.JPG" width="300" alt="Cuando era bebé"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><img src="images/IMG_9094.JPG" width="300" alt="Acostado"></td>
+                        <td><img src="images/IMG_9732.JPG" width="300" alt="Con mi mamá"></td>
+                        <td><img src="images/IMG_5063.JPG" width="300" alt="Demasiado feliz"></td>
+                    </tr>
+                    <tr>
+                        <th><img src="images/IMG_3402.JPG" width="300" alt="Magallanes campeón"></th>
+                        <th><img src="images/IMG_1546.JPG" width="300" alt="Con mi tío"></th>
+                        <th><img src="images/IMG_0440.JPG" width="300" alt="Preparado para la fiesta"></th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer id="contacto" class="footer">
+            <div class="contenedor3">
+                <div class="contacto">
+                    <h1 class="logo2">Rocco</h1>
+                    <a href="tel:+584241898399"><strong>Teléfono</strong><span>Se lo comió!</span></a>
+                    <a href="mailto:dani_linares_04@hotmail.com"><strong>E-mail</strong><span>kilotespesado@hotmail.com</span></a>
+                </div>
+                <form class="formulario">
+                    <div class="col1">
+                        <label for="name">Nombre:</label>
+                        <input type="text" required id="name" name="name">
+                        <label for="email">E-mail:</label>
+                        <input type="email" required id="email" name="email">
+                        <div class="sexo">
+                            <label for="girl">
+                                <input type="radio" id="girl" name="sex" value="girl" checked>Mujer
+                            </label>
+                            <label for="man">
+                                <input type="radio" id="man" name="sex" value="man">Hombre
+                            </label>
+                        </div>
+                        <div class="interest">
+                            <label for="quotation">
+                                <input type="checkbox" id="quotation" name="interest" value="quotation" checked>Regalos
+                            </label>
+                            <label for="claims">
+                                <input type="checkbox" id="claims" name="interest" value="claims">Reclamos
+                            </label>
+                            <label for="comments">
+                                <input type="checkbox" id="comments" name="interest" value="comments">Comentarios
+                            </label>
+                            <label class="others" for="others">
+                                <input type="checkbox" id="others" name="interest" value="others">Otros
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <label for="subject">Comentarios:</label>
+                        <textarea name="comentarios" id="subject" cols="30" rows="7"></textarea>
+                        <input type="submit" value="Enviar" class="button2">
+                    </div>
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>

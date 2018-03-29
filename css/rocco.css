@@ -1,0 +1,358 @@
+body{
+    font-family: 'Pacifico', sans-serif;
+    margin: 0;
+}
+
+input, textarea{
+    outline: 0;
+}
+
+input:focus, textarea:focus{
+    background: lightgoldenrodyellow;
+}
+
+table{
+    width: 100%;
+    margin: 50px 0;
+}
+
+th{
+    background: #273b47;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+    border: 1px solid wheat;
+}
+
+td{
+    padding: 20px;
+}
+
+table, td{
+    border: 1px solid #273b47;
+    border-collapse: collapse;
+}
+
+.background{
+    background-image: url('../images/CIWO6867.png');
+    background-size: cover;
+}
+
+.contenedor1{
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    color: #c5bd70;
+}
+
+.logo1{
+    display: inline-block;
+    font-size: 120px;
+    position: relative;
+    bottom: 50px;
+    right: 60px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    color: #b7a94c;
+}
+
+.menu{
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    right: -97px;
+}
+
+.menu a{
+    color: #e5dd90;
+    text-decoration: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.menu li:after{
+    content: '«';
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.menu li:before{
+    content: '»';
+    font-size: 25px;
+    line-height: 20px;
+}
+
+.portada1{
+    padding: 20px;
+    height: 500px;
+}
+
+.portada2{
+    padding: 20px;
+    height: 120px;
+}
+
+.titulo{
+    font-size: 70px;
+    font-family: 'Sacramento', sans-serif;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.titulo span{
+    text-decoration: underline;
+}
+
+.title-a{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: rgb(211, 177, 87);
+}
+
+.button1{
+    border-radius: 12px;
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    margin-bottom: 70px;
+    margin-top: 15px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    background: #9d3bdd;
+    background: -moz-linear-gradient(45deg, #9d3bdd 1%, #e83033 52%, #6d0019 100%);     /* http://www.colorzilla.com/gradient-editor/ */
+    background: -webkit-linear-gradient(45deg, #9d3bdd 1%,#e83033 52%,#6d0019 100%);
+    background: linear-gradient(45deg, #9d3bdd 1%,#e83033 52%,#6d0019 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d3bdd', endColorstr='#6d0019',GradientType=1 );
+    /*background: linear-gradient(to left, #fe344e, #ff7250);*/
+}
+
+.datos{
+    color: #1F313C;
+    margin-bottom: 50px;
+}
+
+.datos h2{
+    font-size: 35px;
+    font-family: 'Sacramento', sans-serif;
+    margin-left: 13px;
+}
+
+.title-b{
+    font-size: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 30px;
+}
+
+.negrita{
+    font-size: 25px;
+}
+
+.datos-personales{
+    border: 1px solid #1F313C;
+    padding: 10px;
+    margin: 10px 10px 30px 10px;
+    border-radius: 20px 50px 10px 5px;
+    width: 745px;
+    height: 307px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.datos-personales ol{
+    padding: 0;
+    margin-left: 30px;
+    position: relative;
+    bottom: 40px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.habilidades ol{
+    position: relative;
+    bottom: 30px;
+}
+
+.left{
+    float: left;
+    position: relative;
+    bottom: 59px;
+    right: 10px;
+}
+
+.right{
+    float: right;
+    position: relative;
+    right: 13px;
+}
+
+.contenedor2{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.datos-a{
+    float: right;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 44px;
+}
+
+.datos-b{
+    margin-left: 25px;
+}
+
+.datos-b h3{
+    position: relative;
+    bottom: 50px;
+}
+
+.footer{
+    background: #273b47;
+    padding: 30px 10px 36px 0;
+}
+
+.logo2{
+    color: #b7a94c;
+    display: inline-block;
+    font-size: 85px;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+    position: relative;
+    bottom: 30px;
+}
+
+.contacto{
+    display: flex;
+    width: 316px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 220px;
+}
+
+.contacto a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 25px 0 3px;
+}
+
+.contacto strong{
+    display: block;
+    font-size: 21px;
+}
+
+.contacto span{
+    font-family: 'Sacramento', sans-serif;
+    font-size: 21px;
+}
+
+.footer .contenedor3{
+    display: flex;
+    justify-content: space-between;
+    height: 230px;
+    width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.formulario{
+    display: flex;
+    width: 485px;
+    color: white;
+}
+
+.col1, .col2{
+    display: flex;
+    flex-direction: column;
+    width: 208px;
+}
+
+.col1{
+    margin-right: 15px;
+    width: 233px;
+}
+
+.col2{
+    align-items: flex-start;
+    padding-left: 14px;
+}
+
+.interest label{
+    font-size: 22px;
+    font-family: 'Sacramento', sans-serif;
+    margin-right: 30px;
+}
+
+.formulario label, .sexo, .interest{
+    margin-bottom: 8px;
+}
+
+.sexo{
+    margin-top: 5px;
+}
+
+.sexo label{
+    margin-right: 28px;
+}
+
+.interest{
+    margin-top: 7px;
+}
+.others{
+    margin-left: -13px;
+}
+
+.button2{
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    padding: 7px 12px;
+    margin-bottom: -14px;
+    margin-top: 15px;
+    background: #9d3bdd;
+    background: -moz-linear-gradient(45deg, #9d3bdd 1%, #e83033 52%, #6d0019 100%);     /* http://www.colorzilla.com/gradient-editor/ */
+    background: -webkit-linear-gradient(45deg, #9d3bdd 1%,#e83033 52%,#6d0019 100%);
+    background: linear-gradient(45deg, #9d3bdd 1%,#e83033 52%,#6d0019 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d3bdd', endColorstr='#6d0019',GradientType=1 );
+    /*background: linear-gradient(to left, #fe344e, #ff7250);*/
+}
+
+.contenedor4{
+    width: 1051px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
