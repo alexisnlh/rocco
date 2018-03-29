@@ -33,13 +33,6 @@ table, td{
     border-collapse: collapse;
 }
 
-.all{
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
 .background{
     background-image: url('../images/CIWO6867.png');
     background-size: cover;
