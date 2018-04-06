@@ -1,6 +1,7 @@
 body{
     font-family: 'Pacifico', sans-serif;
     margin: 0;
+    perspective: 1000px;
 }
 
 input, textarea{
@@ -355,4 +356,51 @@ table, td{
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+
+.transiciones{
+    transition: .3s;
+    /*transition: .3s opacity ease;*/
+    /*transition-duration: .3s;*/
+    /*transition-property: opacity;*/
+    /*transition-timing-function: ease;*/
+}
+
+.opacity{
+    opacity: 1;
+}
+
+.opacity:hover{
+    opacity: 0;
+}
+
+.escala:hover{
+    transform: scale(2);
+}
+
+.sesgado:hover{
+    transform: skew(20deg);
+}
+
+.rotacion1:hover{
+    transform: rotate3d(30, 40, 60, 300deg);
+}
+.rotacion2:hover{
+    transform: rotate(360deg);
+}
+
+.traslacion:hover{
+    transform: translateZ(200px);
+}
+
+.mixtas1:hover{
+    transform: rotate(45deg) scale(1.5) skew(25deg) translateX(20px);
+}
+
+.mixtas2:hover{
+    transform: rotate(360deg) scale3d(2,2,4);
+}
+
+.mixtas3:hover{
+    transform: translateZ(120px) translateX(-200px);
 }
